@@ -38,11 +38,8 @@ export const PatientsList = props => {
         ) : (
         <Datagrid rowClick="edit">
             <NumberField source="id" />
-            <TextField source="firstName" />
-            <TextField source="surname" />
-            <TextField source="lastName" />
-            <TextField source="address" />
-            <TextField source="phoneNumber" />
+            <TextField source="type" />
+            <TextField source="male" />
             <EditButton />
         </Datagrid>
         )}
@@ -54,11 +51,8 @@ export const PatientsEdit = props => (
     <Edit {...props}>
         <SimpleForm>
             <TextInput disabled source="id" />
-            <TextInput source="firstName" />
-            <TextInput source="surname" />
-            <TextInput source="lastName" />
-            <TextInput source="address" />
-            <TextInput source="phoneNumber" />
+            <TextInput source="type" />
+            <TextInput source="male" />
         </SimpleForm>
     </Edit>
 )
@@ -91,11 +85,8 @@ export const PatientsCreate = props => {
 
     return (<Create onSuccess={onSuccess} {...props}>
         <SimpleForm>
-            <TextInput source="firstName" />
-            <TextInput source="surname" />
-            <TextInput source="lastName" />
-            <TextInput source="address" />
-            <TextInput source="phoneNumber" />
+            <TextInput source="type" />
+            <TextInput source="male" />
             <AutocompleteArrayInput 
             parse={value =>
                 value && value.map(v => ({ id: v }))

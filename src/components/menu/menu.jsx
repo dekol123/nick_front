@@ -15,18 +15,18 @@ import GroupWorkIcon from '@mui/icons-material/GroupWork';
 
 export const CustomMenu = (props) => (
     <Menu {...props}>
-        <MenuItemLink to="/patients" primaryText="Patients" leftIcon={ <GroupAddIcon/> } />
-        <MenuItemLink to="/brigade-medical-personnel" primaryText="Medical personnel for brigade" leftIcon={ <ManageAccountsIcon/> } />
-        <MenuItemLink to="/brigade" primaryText="Brigade info" leftIcon={ <ElectricCarIcon/> } />
-        <MenuItemLink to="/register-of-cards" primaryText="Cards registration" leftIcon={ <PaymentIcon/> } />
-        <MenuItemLink to="/arrivals" primaryText="Arrivals info" leftIcon={ <NightsStayIcon/> } />
-        <MenuItemLink to="/cards" primaryText="Cards information" leftIcon={ <NoteIcon/> } />
-        <MenuItemLink to="/catalogue-of-services" primaryText="Catalogue of services" leftIcon={ <ElectricalServicesIcon/> } />
-        <MenuItemLink to="/complex-of-services" primaryText="Complex of services" leftIcon={ <AllInboxIcon/> } />
-        <MenuItemLink to="/medical-personnel" primaryText="Medical personnel" leftIcon={ <MedicalServicesIcon/> } />
-        <MenuItemLink to="/departments" primaryText="Departments" leftIcon={ <GroupWorkIcon/> } />
+        <MenuItemLink to="/animals" primaryText="Animals" leftIcon={ <GroupAddIcon/> } />
+        <MenuItemLink to="/brigadeVetPersonnel" primaryText="Vet personnel for brigade" leftIcon={ <ManageAccountsIcon/> } />
+        <MenuItemLink to="/emergencyCallGroup" primaryText="Emergency group info" leftIcon={ <ElectricCarIcon/> } />
+        <MenuItemLink to="/animalOwner" primaryText="Animal owners" leftIcon={ <PaymentIcon/> } />
+        <MenuItemLink to="/emergencyCall" primaryText="Emergency calls" leftIcon={ <NightsStayIcon/> } />
+        <MenuItemLink to="/registry" primaryText="Registry" leftIcon={ <NoteIcon/> } />
+        <MenuItemLink to="/listOfServices" primaryText="List Of Services" leftIcon={ <ElectricalServicesIcon/> } />
+        <MenuItemLink to="/complexServices" primaryText="Complex of services" leftIcon={ <AllInboxIcon/> } />
+        <MenuItemLink to="/vetPersonnel" primaryText="Vet personnel" leftIcon={ <MedicalServicesIcon/> } />
+        <MenuItemLink to="/directions" primaryText="Directions" leftIcon={ <GroupWorkIcon/> } />
         <MenuItemLink to="/complains-suggestions" primaryText="Complains suggestions" leftIcon={ <ExposureIcon/> } />
-        <MenuItemLink to="/news" primaryText="News" leftIcon={ <AnnouncementIcon/> } />
+        <MenuItemLink to="/vetNews" primaryText="Vet news" leftIcon={ <AnnouncementIcon/> } />
     </Menu>
     )
 
