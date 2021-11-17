@@ -31,7 +31,7 @@ export const CustomMenu = (props) => (
     )
 
 {/* 
-<Resource name="medical-personnel" list={MedicalPersonnelList} show={ShowGuesser} edit={MedicalPersonnelEdit} create={MedicalPersonnelCreate}/>
-<Resource name="departments" list={DepartmentsList} show={ShowGuesser} edit={DepartmentsEdit} create={DepartmentsCreate}/>
+<Resource name="vetPersonnel" list={MedicalPersonnelList} show={ShowGuesser} edit={MedicalPersonnelEdit} create={MedicalPersonnelCreate}/>
+<Resource name="directions" list={DepartmentsList} show={ShowGuesser} edit={DepartmentsEdit} create={DepartmentsCreate}/>
 <Resource name="complains-suggestions" list={ComplainsSuggestionsList} show={ShowGuesser} edit={ComplainsSuggestionsEdit} create={ComplainsSuggestionsCreate}/>
-<Resource name="news" list={NewsList} show={ShowGuesser} edit={NewsEdit} create={NewsCreate} />  */}
+<Resource name="vetNews" list={NewsList} show={ShowGuesser} edit={NewsEdit} create={NewsCreate} />  */}

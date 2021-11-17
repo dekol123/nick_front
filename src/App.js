@@ -1,18 +1,18 @@
 import * as React from "react";
 import { Admin, Resource, ShowGuesser, AppBar } from 'react-admin';
 import crudProvider from 'ra-data-nestjsx-crud'
-import { PatientsList, PatientsEdit, PatientsCreate } from "./components/patients";
-import { BrigadeMedicalPersonnelList, BrigadeMedicalPersonnelEdit, BrigadeMedicalPersonnelCreate } from './components/brigade-medical-personnel';
-import { NewsList, NewsEdit, NewsCreate } from "./components/news";
-import { RegisterOfCardsCreate, RegisterOfCardsEdit, RegisterOfCardsList } from "./components/register-of-cards";
-import { BrigadeList, BrigadeEdit, BrigadeCreate } from "./components/brigade";
-import { ArrivalsList, ArrivalsEdit, ArrivalsCreate } from "./components/arrivals";
-import { CardList, CardEdit, CardCreate } from "./components/cards";
+import { PatientsList, PatientsEdit, PatientsCreate } from "./components/animals";
+import { BrigadeMedicalPersonnelList, BrigadeMedicalPersonnelEdit, BrigadeMedicalPersonnelCreate } from './components/brigadeVetPersonnel';
+import { NewsList, NewsEdit, NewsCreate } from "./components/vetNews";
+import { RegisterOfCardsCreate, RegisterOfCardsEdit, RegisterOfCardsList } from "./components/animalOwner";
+import { BrigadeList, BrigadeEdit, BrigadeCreate } from "./components/emergencyCallGroup";
+import { ArrivalsList, ArrivalsEdit, ArrivalsCreate } from "./components/emergencyCall";
+import { CardList, CardEdit, CardCreate } from "./components/registry";
 import { ComplainsSuggestionsEdit, ComplainsSuggestionsList, ComplainsSuggestionsCreate } from "./components/complains-suggestions/complains-suggestions";
-import { CatalogueOfServicesList, CatalogueOfServicesEdit, CatalogueOfServicesCreate } from "./components/catalogue-of-services";
-import { ComplexOfServicesList, ComplexOfServicesCreate, ComplexOfServicesEdit } from './components/complex-of-services';
-import { DepartmentsList, DepartmentsCreate, DepartmentsEdit } from "./components/departments";
-import { MedicalPersonnelList, MedicalPersonnelEdit, MedicalPersonnelCreate } from './components/medical-personnel';
+import { CatalogueOfServicesList, CatalogueOfServicesEdit, CatalogueOfServicesCreate } from "./components/listOfServices";
+import { ComplexOfServicesList, ComplexOfServicesCreate, ComplexOfServicesEdit } from './components/complexServices';
+import { DepartmentsList, DepartmentsCreate, DepartmentsEdit } from "./components/directions";
+import { MedicalPersonnelList, MedicalPersonnelEdit, MedicalPersonnelCreate } from './components/vetPersonnel';
 import { CustomLayout } from "./components/layout/layout";
 import { CustomTheme } from './components/theme/theme';
 
